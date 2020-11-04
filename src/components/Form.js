@@ -3,9 +3,12 @@ import TextInput from './TextInput.js';
 
 class Form extends React.Component {
     render() {
-        return (
-            <dive></dive>
+        return(
+            <div>
+                <TextInput />
+            </div>
         )
     }
 }
+
 export default Form;
